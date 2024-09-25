@@ -1,5 +1,5 @@
 using Microsoft.EntityFrameworkCore;
-using YourProject.Data;
+using MyProjectApi.Data;
 
 var builder = WebApplication.CreateBuilder(args);
 builder.Services.AddControllersWithViews();
